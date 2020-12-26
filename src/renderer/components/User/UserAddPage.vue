@@ -66,7 +66,6 @@
                 <el-tab-pane label="订单" name="first"></el-tab-pane>
                 <el-tab-pane label="地址管理" name="second"></el-tab-pane>
                 <el-tab-pane label="购物车" name="third"></el-tab-pane>
-                <el-tab-pane label="足迹" name="fourth"></el-tab-pane>
             </el-tabs>
             <div class="form-table-box" v-if="this.pIndex == 0">
                 <div v-for="item in orderData" class="list-wrap clearfix">
@@ -149,17 +148,6 @@
                             <label>{{scope.row.is_delete == 1? '已删':''}}</label>
                         </template>
                     </el-table-column>
-                </el-table>
-            </div>
-            <div class="form-table-box" v-if="this.pIndex == 3">
-                <el-table :data="footData" style="width: 100%" stripe>
-                    <el-table-column prop="id" label="商品ID" width="100px"></el-table-column>
-                    <el-table-column prop="list_pic_url" label="图片" width="70px">
-                        <template scope="scope">
-                            <img :src="scope.row.list_pic_url" alt="" style="width: 50px;height: 50px">
-                        </template>
-                    </el-table-column>
-                    <el-table-column prop="name" label="商品名称"></el-table-column>
                 </el-table>
             </div>
             <div class="page-box">

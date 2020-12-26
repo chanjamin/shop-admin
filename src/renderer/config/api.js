@@ -1,5 +1,5 @@
-const rootUrl = 'http://jamin.site:8360/admin/';
-// const rootUrl = 'http://127.0.0.1:8360/admin/';
+// const rootUrl = 'http://jamin.site:8360/admin/';
+const rootUrl = 'http://127.0.0.1:8360/admin/';
 
 const api = {
     rootUrl : rootUrl,
@@ -9,8 +9,8 @@ const api = {
     //     appkey: '123123', // 对应快递鸟用户后台 API key
     //     request_url: 'http://api.kdniao.cc/Ebusiness/EbusinessOrderHandle.aspx'
     // },
-	// 4.19更新，物流查询不需要以上配置，只需要在server的config配置阿里云物流接口就可以
-    // qiniu: 'http://up.qiniu.com',
+	// 物流查询不需要以上配置，只需要在server的config配置阿里云物流接口就可以
+    qiniu: 'http://up-z2.qiniup.com',
     // 请根据自己创建的七牛的区域进行设置：
     // https://developer.qiniu.com/kodo/manual/1671/region-endpoint
 };

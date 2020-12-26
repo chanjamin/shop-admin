@@ -22,7 +22,7 @@
                     </el-form-item>
                 </el-form>
 
-                <p  style="color:#F56C6C;font-size:10px;">提示：hiolabs</p>
+                <p  style="color:#F56C6C;font-size:10px;"></p>
 
             </div>
         </div>

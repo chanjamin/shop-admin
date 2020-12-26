@@ -31,7 +31,7 @@
                     </el-form-item>
                 </el-form>
             </div>
-            <!-- <div class="form-table-box">
+             <div class="form-table-box">
                 <el-checkbox-group v-model="checkedCities" @change="handleCheckedCitiesChange">
                     <div v-for="item in tableData" class="list-wrap clearfix">
                         <div class="header clearfix">
@@ -67,7 +67,7 @@
                                 <div class="mobile">手机：{{item.userInfo.mobile}}</div>
                             </div>
                             <div class="main">
-                                
+
                                 <div class="m1">
                                     <div class="user-name">{{item.consignee}}</div>
                                     <div class="user-mobile">{{item.mobile}}</div>
@@ -85,7 +85,7 @@
                                 <el-button v-if="item.order_status == 101" size="mini"
                                            @click="orderEdit(item)">修改价格
                                 </el-button>
-                                
+
                                 <el-button class="right-detail" type="text" @click="viewDetail(item.id)"
                                            size="mini">
                                     查看详情
@@ -94,7 +94,7 @@
                         </div>
                     </div>
                 </el-checkbox-group>
-            </div> -->
+            </div>
             <div class="page-box">
                 <el-pagination @current-change="handlePageChange" :current-page="page" :page-size="10"
                                layout="total, prev, pager, next, jumper" :total="total">

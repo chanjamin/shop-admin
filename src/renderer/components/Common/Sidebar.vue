@@ -28,44 +28,15 @@
                     <span>商品设置</span>
                 </el-menu-item>
             </el-submenu>
-            <!-- <el-menu-item index="/dashboard/shopcart">
+             <el-menu-item index="/dashboard/shopcart">
                 <i class="fa fa-large fa-shopping-cart"></i>
                 <span>购物车</span>
-            </el-menu-item> -->
+            </el-menu-item>
             <el-menu-item index="/dashboard/user">
                 <i class="fa fa-large fa-users"></i>
                 <span>用户列表</span>
             </el-menu-item>
-            <!-- <el-submenu index="settings">
-                <template slot="title">
-                    <i class="fa fa-large fa-wrench"></i>
-                    <span>店铺设置</span>
-                </template>
-                <el-menu-item index="/dashboard/settings/showset">
-                    <i class="fa fa-circle"></i>
-                    <span>显示设置</span>
-                </el-menu-item>
-                <el-menu-item index="/dashboard/ad">
-                    <i class="fa fa-circle"></i>
-                    <span>广告列表</span>
-                </el-menu-item>
-                <el-menu-item index="/dashboard/notice">
-                    <i class="fa fa-circle"></i>
-                    <span>公告管理</span>
-                </el-menu-item>
-                <el-menu-item index="/dashboard/freight">
-                    <i class="fa fa-circle"></i>
-                    <span>运费模板</span>
-                </el-menu-item>
-                <el-menu-item index="/dashboard/shipper">
-                    <i class="fa fa-circle"></i>
-                    <span>快递设置</span>
-                </el-menu-item>
-                <el-menu-item index="/dashboard/admin">
-                    <i class="fa fa-circle"></i>
-                    <span>管理员</span>
-                </el-menu-item>
-            </el-submenu> -->
+
             <el-menu-item @click="logout">
                 <i class="fa fa-large fa-sign-out"></i>
                 <span>退出</span>

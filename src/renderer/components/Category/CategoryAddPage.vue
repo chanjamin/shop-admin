@@ -84,7 +84,7 @@
         data() {
             return {
                 root: '',
-                qiniuZone:'',
+                qiniuZone:'bucket-jamin',
                 fileList: [],
                 fileList2: [],
                 uploaderHeader: {
